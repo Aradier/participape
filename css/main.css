@@ -27,13 +27,12 @@ body {
 
 .navlist {
 	float:right;
-	margin: 30px 0px;
+	margin: 20px 0px;
 }
 
 .navlist li {
 	display: inline-block;
-	vertical-align: top;
-	margin: 0px 15px;
+	margin: 0px 15px 0px 15px;
 }
 
 .navlist li a {
@@ -42,6 +41,21 @@ body {
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 15px;
+}
+
+.lastli-menu {
+	border: 2px solid white;
+	padding: 8px 10px;
+	border-radius: 5px;
+}
+
+.navlist li a:hover {
+	color: #73B29D;
+	background-color: white;
+}
+
+.lastli-menu:hover {
+	background-color: white;
 }
 
 .section1 {
@@ -87,6 +101,13 @@ body {
 	padding: 22px 17px;
 	margin: 35px 0px;
 	text-align: center;
+	border-radius: 5px;
+}
+
+.btn1:hover {
+	background-color: #5FCA71;
+	color: white;
+	border: 2px solid #5FCA71;
 }
 
 .img1 {
@@ -180,6 +201,34 @@ body {
 	padding: 22px 17px;
 	text-align: center;
 	margin: 60px 160px;
+	border-radius: 5px;
+}
+
+.btn2:hover {
+	background-color: white;
+	color: #6CB598;
+	border: 2px solid white;
+}
+
+.btn4 {
+	display: block;
+	width: 250px;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	border: 2px solid white;
+	text-decoration: none;
+	padding: 22px 17px;
+	text-align: center;
+	margin: 60px 160px;
+	border-radius: 5px;
+}
+
+.btn4:hover {
+	background-color: white;
+	color: #30547A;
+	border: 2px solid white;
 }
 
 .section4 {
