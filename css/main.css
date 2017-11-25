@@ -7,7 +7,7 @@
 }
 
 body {
-	font-family: arial;
+	font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 #header {
@@ -27,7 +27,7 @@ body {
 
 .navlist {
 	float:right;
-	margin: 20px 0px;
+	margin: 30px 0px;
 }
 
 .navlist li {
@@ -38,12 +38,17 @@ body {
 .navlist li a {
 	text-decoration: none;
 	color: white;
-	text-transform: uppercase;
 	font-weight: bold;
+	text-transform: uppercase;
 	font-size: 15px;
 }
 
 .lastli-menu {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 15px;
 	border: 2px solid white;
 	padding: 8px 10px;
 	border-radius: 5px;
@@ -54,12 +59,8 @@ body {
 	background-color: white;
 }
 
-.lastli-menu:hover {
-	background-color: white;
-}
-
 .section1 {
-	background-color: #D3D3D3;
+	background: linear-gradient(340deg,#bdc6cf 15%,#e0e4e9 40%,#e9ecef 85%);
 	display: block;
 }
 
@@ -71,11 +72,13 @@ body {
 }
 
 .title1 {
-	display: block;
+	display: inline-block;
+	vertical-align: top;
 	font-weight: bold;
 	font-size: 40px;
 	line-height: 1.4;
 	margin-right: 75px;
+	opacity: 0.8;
 }
 
 .titlemargin {
@@ -87,6 +90,7 @@ body {
 	display: block;
 	font-size: 23px;
 	line-height: 1.4;
+	opacity: 0.5;
 }
 
 .btn1 {
@@ -113,8 +117,7 @@ body {
 .img1 {
 	display: inline-block;
 	vertical-align: top;
-	margin: 100px 50px;
-
+	margin: 100px;
 }
 
 .section2 {
@@ -124,9 +127,22 @@ body {
 }
 
 .img2 {
-    width: 110px;
+    width: 100px;
     margin: 10px 10px;
     height: 30px;
+}
+
+.articshoreslogo {
+	height: 20px; 
+
+}
+
+.cancerlogo {
+	width: 95px;
+}
+
+.cambridgelogo {
+	height: 25px;
 }
 
 .line {
@@ -143,6 +159,7 @@ body {
 	display: block;
 	font-size: 30px;
 	margin: 10px 0px;
+	opacity: 0.8;
 }
 
 .statement1 {
@@ -152,27 +169,36 @@ body {
 	font-weight: bold;
 }
 
-.down_arrow {
+.down_arrow1 {
     border: solid #D3D3D3;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 20px;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.down_arrow2 {
+    border: solid #D3D3D3;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
 
 .article1 {
 	float:left;
 	background-color: #30547A;
 	text-align: center;
-	width: 562px;
+	width: 50%;
 }
 
 .article2 {
 	float:right;
 	background-color: #6CB598;
-	width: 562px;
+	width: 50%;
 	text-align: center;
 }
 
@@ -200,7 +226,7 @@ body {
 	text-decoration: none;
 	padding: 22px 17px;
 	text-align: center;
-	margin: 60px 160px;
+	margin: 60px auto;
 	border-radius: 5px;
 }
 
@@ -221,7 +247,7 @@ body {
 	text-decoration: none;
 	padding: 22px 17px;
 	text-align: center;
-	margin: 60px 160px;
+	margin: 60px auto;
 	border-radius: 5px;
 }
 
@@ -304,14 +330,14 @@ body {
 .footercol {
 	display: inline-block;
 	vertical-align: top;
-	margin-left: 60px;
+	margin-left: 80px;
 }
 
 .footercol4 {
 	text-align: right;
 	display: inline-block;
 	vertical-align: top;
-	margin-left: 60px;
+	margin-left: 100px;
 }
 
 .footercol4 h3 {
@@ -339,4 +365,52 @@ body {
 
 .clear {
 	clear:both;
+}
+
+/* Responsive queries */
+/* For mobile phones: */
+@media only screen and (max-width: 320px) {
+	#header {
+	padding: 0px;
+	margin: 0px;
+	}
+	.navlist li {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	}
+	.miniwrapper1 {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	}
+
+	.title1 {
+	font-size: 35px;
+	width: 100%;
+	margin-top: 40px;
+	}
+
+	.text1 {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 20px;
+	line-height: 1.4;
+	opacity: 0.5;
+	}
+	.btn1 {
+	width: 80%;
+	margin-top: 10px;
+	margin: 40px auto;
+	text-align: center;
+	}
+}
+ /* For tablets: */
+@media only screen and (min-width: 600px) {
+   
+
+}
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+    
 }
