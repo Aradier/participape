@@ -218,7 +218,7 @@ body {
 
 .text2 {
 	display: block;
-	font-size: 40px;
+	font-size: 35px;
 	color: white;
 	margin: 50px;
 	padding: 0px 60px 0px 60px;
@@ -283,7 +283,7 @@ body {
 
 .ol1 li p {
 	color: white;
-	font-size: 22px;
+	font-size: 17px;
 	padding: 20px 120px;
 }
 
@@ -464,7 +464,7 @@ body {
 	}
 }
  /* For tablets and desktops: */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
 	.section1{
 		text-align: left;
 		padding: 0%;
