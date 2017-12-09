@@ -12,12 +12,27 @@ body {
 #wrapper{
 	width: 100%;
 }
-#header {
+.header {
 	background-color: #73B29D;
 	padding: 0px 100px;
 }
 
+.headerfixed {
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	opacity: 0.95;
+	z-index: 9999;
+}
+
 .prolificlogo {
+	width: 100px;
+	height: 30px;
+	margin-top: 20px;
+}
+
+.prolificlogofixed {
+	display: none;
 	width: 100px;
 	height: 30px;
 	margin-top: 20px;
@@ -41,12 +56,16 @@ body {
 	margin: 0px 15px 0px 15px;
 }
 
-.navlist li a {
+.normalli {
 	text-decoration: none;
 	color: white;
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 15px;
+}
+
+.navlistliafixed {
+	color: gray;
 }
 
 .lastli-menu {
@@ -63,6 +82,18 @@ body {
 .lastli-menu:hover {
 	color: #73B29D;
 	background-color: white;
+}
+
+.lastli-menufixed {
+	color: #73B29D;
+	border: 2px solid #73B29D;
+	padding: 8px 10px;
+	border-radius: 5px;
+}
+
+.lastli-menufixed:hover {
+	background-color: #73B29D;
+	color: white;
 }
 
 .tapamenuresponsive {
@@ -396,10 +427,20 @@ body {
 	#wrapper {
 		width: 100%;
 	}
-	#header {
-	padding: 5%;
+	.header {
+	padding: 3% 5%;
 	position: relative;
 	}
+
+	.headerfixed {
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	padding: 3% 5%;
+	opacity: 0.95;
+	z-index: 9999;
+	}
+
 	.navlist {
 	display: none;
 	}
