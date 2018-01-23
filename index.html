@@ -8,7 +8,32 @@
 		<meta name="keywords" content="Research">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+		<script type="text/javascript">
+			$(window).load(function(){
+				$(".owl-carousel").owlCarousel({
+					items:2,
+					margin:0,
+					loop:true,
+					controls: true,
+					responsive:{
+						 0:{
+				            items:1,
+				            nav:false
+				        },
+				        997:{
+				            items:2,
+				            nav:false
+				        },
+					}
+				});
+			})
+		</script>
 	</head>
 	<body>
 		<div id="wrapper">
@@ -171,24 +196,52 @@
 				<div class="clear"></div>
 			</section>
 			<section class="section5">
-				<article class="article3">
-					<img class="img3" src="img/researcherdixit.svg">
-					<p>
-						<cite>"Good quality data very quicky. Revolutionary"</cite>
-					</p>
-					<span>
-						Dr. Alex Jones <br>
-						Lecturer in Psychology <br>Swansea University
-					</span>
-				</article>
-				<article class="article3">
-					<img class="img3" src="img/participantdixit.svg">
-					<p><cite>"I would even go as far as saying it is one of the top survey websites out there. I never get screened out of surveys after starting, any problems then a quick message gets it sorted."</cite></p>
-					<span>
-						Katie <br>
-						Participant
-					</span>
-				</article>
+				<div class="container">
+				<div class="owl-carousel">
+					<div class="slide1">
+						<img class="img3" src="img/researcherdixit.svg">
+						<p>
+							<cite>"Good quality data very quicky. Revolutionary"</cite>
+						</p>
+						<span>
+							Dr. Alex Jones <br>
+							Lecturer in Psychology <br>Swansea University
+						</span>
+					</div>
+					<div class="slide1">
+						<img class="img3" src="img/participantdixit.svg">
+						<p><cite>"I would even go as far as saying it is one of the top survey websites out there. I never get screened out of surveys after starting, any problems then a quick message gets it sorted."</cite></p>
+						<span>
+							Katie <br>
+							Participant
+						</span>
+					</div>
+					<div class="slide1">
+						<img class="img3" src="img/participantdixit.svg">
+						<p><cite>"I would even go as far as saying it is one of the top survey websites out there. I never get screened out of surveys after starting, any problems then a quick message gets it sorted."</cite></p>
+						<span>
+							Katie <br>
+							Participant
+						</span>
+					</div>
+					<div class="slide1">
+						<img class="img3" src="img/participantdixit.svg">
+						<p><cite>"I would even go as far as saying it is one of the top survey websites out there. I never get screened out of surveys after starting, any problems then a quick message gets it sorted."</cite></p>
+						<span>
+							Katie <br>
+							Participant
+						</span>
+					</div>
+					<div class="slide1">
+						<img class="img3" src="img/participantdixit.svg">
+						<p><cite>"I would even go as far as saying it is one of the top survey websites out there. I never get screened out of surveys after starting, any problems then a quick message gets it sorted."</cite></p>
+						<span>
+							Katie <br>
+							Participant
+						</span>
+					</div>
+				</div>
+				</div>
 			</section>
 			<footer id="footer">
 				<div class="footercol">
@@ -247,6 +300,4 @@
 			</footer>
 		</div>
 	</body>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
 </html>
