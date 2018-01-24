@@ -11,29 +11,6 @@
 		<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
 		<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script type="text/javascript" src="js/main.js"></script>
-		<script type="text/javascript" src="js/owl.carousel.min.js"></script>
-		<script type="text/javascript">
-			$(window).load(function(){
-				$(".owl-carousel").owlCarousel({
-					items:2,
-					margin:0,
-					loop:true,
-					controls: true,
-					responsive:{
-						 0:{
-				            items:1,
-				            nav:false
-				        },
-				        997:{
-				            items:2,
-				            nav:false
-				        },
-					}
-				});
-			})
-		</script>
 	</head>
 	<body>
 		<div id="wrapper">
@@ -300,4 +277,27 @@
 			</footer>
 		</div>
 	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+		<script type="text/javascript">
+			$(window).load(function(){
+				$(".owl-carousel").owlCarousel({
+					items:2,
+					margin:0,
+					loop:true,
+					controls: true,
+					responsive:{
+						 0:{
+				            items:1,
+				            nav:false
+				        },
+				        997:{
+				            items:2,
+				            nav:false
+				        },
+					}
+				});
+			})
+	</script>
 </html>
