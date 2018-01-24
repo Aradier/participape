@@ -13,7 +13,7 @@ body {
 	width: 100%;
 }
 .header {
-	background-color: #73B29D;
+	background-color: #8789C0;
 	padding: 0px 100px;
 	transition: linear 0.3s;
 }
@@ -81,19 +81,19 @@ body {
 }
 
 .lastli-menu:hover {
-	color: #73B29D;
+	color: #8789C0;
 	background-color: white;
 }
 
 .lastli-menufixed {
-	color: #73B29D;
-	border: 2px solid #73B29D;
+	color: #8789C0;
+	border: 2px solid #8789C0;
 	padding: 8px 10px;
 	border-radius: 5px;
 }
 
 .lastli-menufixed:hover {
-	background-color: #73B29D;
+	background-color: #8789C0;
 	color: white;
 }
 
@@ -101,7 +101,7 @@ body {
 	display: none;
 	width: 100%;
 	height: 100%;
-	background-color: #73B29D;
+	background-color: #8789C0;
 	position: fixed;
 	z-index: 99999;
 	text-align: center;
@@ -147,8 +147,8 @@ body {
 	text-transform: uppercase;
 	font-size: 20px;
 	font-weight: bold;
-	color: #5FCA71;
-	border: 2px solid #5FCA71;
+	color: #8789C0;
+	border: 2px solid #8789C0;
 	text-decoration: none;
 	padding: 22px 17px;
 	margin: 35px 0px;
@@ -157,9 +157,9 @@ body {
 }
 
 .btn1:hover {
-	background-color: #5FCA71;
+	background-color: #8789C0;
 	color: white;
-	border: 2px solid #5FCA71;
+	border: 2px solid #8789C0;
 }
 
 .img1 {
@@ -260,14 +260,14 @@ body {
 
 .article1 {
 	float:left;
-	background-color: #30547A;
+	background-color: #7CC6FE;
 	text-align: center;
 	width: 50%;
 }
 
 .article2 {
 	float:right;
-	background-color: #6CB598;
+	background-color: #8789C0;
 	width: 50%;
 	text-align: center;
 }
@@ -347,14 +347,14 @@ body {
 
 .title2 {
 	background-color: white;
-	color: #30547A;
+	color: #7CC6FE;
 	font-size: 30px;
 	padding: 30px 0px;
 }
 
 .title3 {
 	background-color: white;
-	color: #6CB598;
+	color: #8789C0;
 	font-size: 30px;
 	padding: 30px 0px;
 }
@@ -650,8 +650,8 @@ body {
 	text-transform: uppercase;
 	font-size: 20px;
 	font-weight: bold;
-	color: #5FCA71;
-	border: 2px solid #5FCA71;
+	color: #8789C0;
+	border: 2px solid #8789C0;
 	text-decoration: none;
 	padding: 22px 17px;
 	margin: 6% 13%;
@@ -661,9 +661,9 @@ body {
 }
 
 .btn1:hover {
-	background-color: #5FCA71;
+	background-color: #8789C0;
 	color: white;
-	border: 2px solid #5FCA71;
+	border: 2px solid #8789C0;
 }
 
 .img1 {
