@@ -276,6 +276,19 @@ body {
 .img3 {
 	width: 200px;
 	height: 200px;
+	color: white;
+}
+
+.img7 {
+	width: 200px;
+	height: 200px;
+	color: #292D36;
+}
+
+.img5 {
+	width: 200px;
+	height: 200px;
+	color: gray;
 }
 
 .btn2 {
@@ -356,6 +369,12 @@ body {
 	height: 70px;
 	text-align: center;
 	margin: 40px 10px 10px 10px;
+}
+
+.img6 {
+	text-align: center;
+	margin: 40px 10px 18px 10px;
+	color: white;
 }
 
 .section5 {
