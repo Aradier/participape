@@ -110,6 +110,7 @@ body {
 .section1 {
 	background: linear-gradient(340deg,#bdc6cf 15%,#e0e4e9 40%,#e9ecef 85%);
 	display: block;
+	text-align: center;
 }
 
 .miniwrapper1 {
@@ -142,7 +143,8 @@ body {
 }
 
 .btn1 {
-	display: block;
+	display: inline-block;
+	vertical-align: top;
 	width: 250px;
 	text-transform: uppercase;
 	font-size: 20px;
@@ -150,7 +152,7 @@ body {
 	color: #8789C0;
 	border: 2px solid #8789C0;
 	text-decoration: none;
-	padding: 22px 17px;
+	padding: 22px 0px;
 	margin: 35px 0px;
 	text-align: center;
 	border-radius: 5px;
@@ -497,7 +499,7 @@ body {
 
 	.section1 {
 		text-align: center;
-		padding: 0% 9%;
+		padding: 5% 9%;
 	}
 	.miniwrapper1 {
 	width: 100%;
@@ -571,13 +573,14 @@ body {
  /* For tablets and desktops: */
 @media only screen and (min-width: 769px) and (max-width: 1023px) {
 	.section1{
-		text-align: left;
 		padding: 0%;
+		text-align: center;
 	}
 	.miniwrapper1 {
 		display: inline-block;
 		vertical-align: top;
-		width: 50%;
+		text-align: top;
+		width: 80%;
 		margin-top: 8%;
 		margin-left: 3%;
 		margin-bottom: 0%;
@@ -606,6 +609,7 @@ body {
 	vertical-align: top;
 	margin: 0%;
 	width: 70%;
+	text-align: center;
 }
 
 .title1 {
@@ -635,7 +639,6 @@ body {
 }
 
 .btn1 {
-	display: block;
 	width: 250px;
 	text-transform: uppercase;
 	font-size: 20px;
